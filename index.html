@@ -17,8 +17,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    
   </head>
-
+  
   <body>
     <!---Хедер-->
     <header class="header">
@@ -46,7 +47,12 @@
         <div class="container-hero container">
           <h1 class="title-h1">Ефективні рішення для вашого бізнесу</h1>
 
-          <button class="button-section1" type="button">Замовити послугу</button>
+          <button class="button-section1" data-modal-open type="button">Замовити послугу</button>
+          <div  class="backdrop  is-hidden" data-modal >
+            <div class="modal">
+             <button data-modal-close> Закрий мене </button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -333,5 +339,6 @@
       
     </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
