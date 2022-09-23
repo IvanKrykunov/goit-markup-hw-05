@@ -39,6 +39,7 @@ body {
   font-style: normal;
   color: var(--primary-text-color);
   background-color: var(--background-main-color);
+  padding-top: 80px;
 }
 .container {
   width: 1200px;
@@ -55,6 +56,10 @@ body {
 /* хедер */
 .header {
   border-bottom: 1px solid#ECECEC;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  
 }
 
 .nav {
