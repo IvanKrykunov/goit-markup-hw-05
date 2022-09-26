@@ -632,10 +632,11 @@ color: #FFFFFF;
 /* фото галерея */
 .div-img{
   position: relative;
+  
 }
 
 .div-div{
-  
+
   position: absolute;
   display: flex;
   width: 100%;
@@ -648,7 +649,6 @@ color: #FFFFFF;
 }
 
 .submenu{
-  
   position: absolute;
   top: 50%;
   left: 50%;
