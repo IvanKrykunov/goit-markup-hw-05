@@ -640,7 +640,7 @@ position: relative;
 overflow: hidden;
  
 }
-opacity: 0;
+
 .submenu{
   position: absolute;
   transform: translateY(100%);
@@ -657,8 +657,8 @@ letter-spacing: 0.03em;
 padding: 63px 24px;
 color: var(--background-main-color);
 background-color:  rgba(33, 150, 243, 0.9);
- 
 }
+
 .portfolio-ul {
   display: flex;
   flex-wrap: wrap;
