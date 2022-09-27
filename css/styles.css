@@ -116,7 +116,7 @@ body {
   fill: var(--secondary-text-color);
 }
 .link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -138,7 +138,7 @@ body {
   display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -217,7 +217,7 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .button-section1:hover,
 .button-section1:focus {
@@ -372,7 +372,7 @@ color: #FFFFFF;
   border-radius: 50px;
   justify-content: center;
   align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .icon-social:hover {
   fill: var(--background-main-color);
@@ -451,11 +451,10 @@ color: #FFFFFF;
   margin-left: 30px;
 }
 .li-customers{
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .icon-customers {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   border: 1px solid#afb1b8;
   border-radius: 4px;
@@ -506,7 +505,7 @@ color: #FFFFFF;
   margin: 0;
 }
 .svg-futer {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   width: 44px;
   height: 44px;
@@ -611,7 +610,7 @@ color: #FFFFFF;
 }
 
 .btn {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;
   padding: 6px 22px 6px 22px;
   font-weight: 500;
@@ -640,6 +639,7 @@ color: #FFFFFF;
 }
 /* фото галерея */
 .div-img{
+  transition: translateY 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   
 }
