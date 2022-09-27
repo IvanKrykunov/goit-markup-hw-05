@@ -242,7 +242,7 @@ border-radius: 50%;
 left: 0;
 top: 0;
 opacity: 1;
-transition: pacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background: rgba(0, 0, 0, 0.2);
 }
 .backdrop.is-hidden {
@@ -465,6 +465,7 @@ color: #FFFFFF;
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .icon-customers:hover,
 .li-customers:hover {
@@ -568,7 +569,7 @@ color: #FFFFFF;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -577,7 +578,7 @@ color: #FFFFFF;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(255, 255, 255, 0.6);
   text-decoration-line: none;
 }
